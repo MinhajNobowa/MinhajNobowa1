@@ -229,11 +229,45 @@ blog-pager-newer-link, .blog-pager-older-link:hover{ text-decoration:none}
 .comment_inner.comment_admin .comment-content{ color:#fff;  background:-webkit-linear-gradient(left,rgba(45,69,98,0.65) 0%,#2d4562 100%),-webkit-linear-gradient(left,#4d90fe 0%,#666 100%)}
 
  /******أنظمة التعليقات الثلاثة *******/
-.cmm-tabs-header{  overflow:hidden;   background:#fff;   padding:10px;   box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 5px 0 rgba(0,0,0,.23);   margin-bottom:10px}
-.cmm-tabs-header ul li a{  float:right;   width:33.33333%;   text-align:center;   display:inline-block;   background:#EF5350 url(//3.bp.blogspot.com/-OPew1v1hjO4/VqpIpESmS7I/AAAAAAAAAvM/v3oxGsnBVd0/s1600-r/comments.png) no-repeat;  padding:20px 0;  background-position:center -32px;  background-color:orange;  border:5px solid #FFF}
-.facebook-tab{ background:#fff;  padding:10px;  box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 5px 0 rgba(0,0,0,.23);  margin-bottom:10px}
-.disqus-tab{ background:#fff;  padding:10px;  box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 5px 0 rgba(0,0,0,.23);  margin-bottom:10px}
-ul.wrap-tab li:nth-child(1) a{ background-position:center -32px;  background-color:orange}
-ul.wrap-tab li:nth-child(2) a{ background-position:center -66px;  background-color:#2e9fff}
-ul.wrap-tab li:nth-child(3) a{ background-position:center 3px;  background-color:#3b5998}
- 
+.cmm-tabs-header {
+  overflow: hidden;
+  background: #ffffff;
+  padding: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 5px 0 rgba(0,0,0,.23);
+  margin-bottom: 10px;
+}
+.cmm-tabs-header ul li a {
+  float: right;
+  width: 33.33333%;
+  text-align: center;
+  display: inline-block;
+  background: #EF5350 url(//3.bp.blogspot.com/-OPew1v1hjO4/VqpIpESmS7I/AAAAAAAAAvM/v3oxGsnBVd0/s1600-r/comments.png) no-repeat;
+  padding: 20px 0;
+  background-position: center -32px;
+  background-color: orange;
+  border: 5px solid #FFF;
+}
+.facebook-tab {
+  background: #ffffff;
+  padding: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 5px 0 rgba(0,0,0,.23);
+  margin-bottom: 10px;
+}
+.disqus-tab {
+  background: #ffffff;
+  padding: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 5px 0 rgba(0,0,0,.23);
+  margin-bottom: 10px;
+}
+ul.wrap-tab li:nth-child(1) a {
+  background-position: center -32px;
+  background-color: orange;
+}
+ul.wrap-tab li:nth-child(2) a {
+  background-position: center -66px;
+  background-color: #2e9fff;
+}
+ul.wrap-tab li:nth-child(3) a {
+  background-position: center 3px;
+  background-color: #3b5998;
+}
