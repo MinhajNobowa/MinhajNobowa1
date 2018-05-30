@@ -1,0 +1,239 @@
+@charset "UTF-8";
+/*!
+ * MinhajNobowa2
+ * MinhajNobowa : https://minhajnobowa1.blogspot.com/
+ * Copyright (c) 2018 Djillali Chellal
+ */
+/******** body ********/
+body#layout{ text-transform:capitalize}
+body#layout div.section{ margin:0 0 10px 0}
+#layout #header{ background-color:#22da9e !important;  padding:6px;  margin-bottom:15px;  padding-bottom:0px;  padding-top:7px;  color:#fff}
+#layout #header .section{ background-color:#1FC38E !important;  border-color:#1FB987 !important}
+#layout #header .widget-content{ border:0 !important}
+#layout #header .widget-wrap2{ background-color:#4a4a4a !important}
+#layout #logo-and-ad-container{ overflow:hidden !important}
+#layout #Header1{ float:right !important;  width:30% !important;  display:block}
+#layout #logo-and-ad-container{ display:block;  height:auto}
+#layout .logo-and-ad-container{margin-top:0}
+#layout .logo-and-ad-container .HTML{ float:left !important;  display:block;  width:67% !important}
+#layout .logo-and-ad-container .HTML .widget-content{ width:100%;  padding-left:0;  height:73px}
+#layout #search-box, 
+#layout #search-input{ display:none}
+#layout #slider{ height:118px;  background-color:#EA6969 !important;  color:#fff;  text-transform:capitalize;  border:0 !important}
+#layout #slider .widget{ min-height:0}
+#layout .widget-wrap2{ background-color:#4a4a4a !important}
+#layout .widget-content{ border:0 !important}
+body#layout .main-content div.section{ padding:7px}
+#layout .main-content{ margin-bottom:10px}
+#layout .blog-posts-wrapper{ float:right;  width:45%;  text-transform:capitalize;  margin-left:10px}
+#layout .blog-posts-wrapper .section{ background-color:#4ECEFF !important;  color:#fff;  border:0 !important}
+#layout .sidebar-wrapper1{ width:24.8%;  margin-left:10px;  padding:0}
+#layout div#sidebar1{ background:#CE37FF !important;  color:#fff}
+#layout div#sidebar2, 
+#layout div#sidebar3, 
+#layout #sidebar-tabs{ background:#FABE14 !important;  color:#fff}
+#layout .sidebartabs{ display:none}
+#layout .sidebartabs-wrapper{ margin-bottom:0}
+#layout #footer-wrapper{ padding:10px;  background-color:#858585}
+#layout #footer-wrapper .container >.section{ margin-left:15px;  width:27.8% !important;  background-color:#e2e2e2 !important;  border:0;  float:right}
+#layout #footer-wrapper .container >.section:last-child{ margin-left:0}
+
+/******** MinhajNobowa ********/
+a{ text-decoration:none}
+.Stats .counter-wrapper{ color:#FF9800}
+a.post-label-anchor{ text-decoration:none;  color:#101010;  font-weight:600}
+a.post-label-anchor:hover{ text-decoration:none;  color:#ff4e07}
+h1.title a{ text-decoration:none;  color:#f5f5f5}
+a.profile-name-link.g-profile{ color:#000}
+a.profile-link{ color:#000;  text-decoration:none}
+a.anchor-hover{ color:#fff;  text-decoration:none}
+.titlewrapper{ color:#fff}
+a.comment-link{ color:aliceblue;  text-decoration:none}
+a.comment-link:hover{ color:#FFC107;  text-decoration:none}
+.copyleft{ color:#f5f5f5;  text-decoration:none}
+a#mycontent{ color:#FFC107;  text-decoration:none;  visibility:hidden}
+a#dofollow{ color:#9E9E9E;  text-decoration:none}
+a#dofollow:hover{ color:#FFC107}
+a.comments{ color:#d1dada;  float:left}
+a.comments:hover{ color:#FFC107;  float:left}
+i.fa.fa-comment.icon{ color:#FF9800}
+div#ContactForm1{ display:none}
+
+/********صندوق المتابعة والانضمام للمدونة ********/
+#HTML68 .aboutind-info h4{background:transparent; position:relative; padding:0; margin:0; border:0; text-align:center; font-size:120%}
+.aboutind-img{position:relative; max-height:140px; overflow:hidden}
+.aboutind-img img{max-width:100%; width:100%; transition:all .6s}
+.aboutind-img:hover img{transform:scale(1.2) rotate(-10deg)}
+.aboutind-img:before{content:''; background:rgba(0,0,0,0.3); position:absolute; top:0; right:0; left:0; bottom:0; z-index:2; transition:all .3s}
+.aboutind-img:hover:before{background:rgba(0,0,0,0.6)}
+.aboutfloat-img{width:55%; position:absolute; top:35%; bottom:35%; right:22.5%; z-index:3}
+.aboutind-float{text-align:center; display:table; width:100%; height:100%}
+.aboutind-float a{background:rgba(243,156,18,.95); color:#fff; padding:8px 14px; z-index:2; display:table-cell; width:100%; font-size:13px; font-weight:700; text-transform:uppercase; vertical-align:middle; border-radius:3px; transition:all .3s}
+.aboutind-float:hover a{background:#404040; color:#fff}
+.aboutind-float a i{font-weight:normal; margin:0 0 0 5px}
+.aboutind-wrpicon{display:block; margin:15px auto; position:relative}
+.aboutind-wrpicon .extender{width:100%; display:block}
+.extender{text-align:center; font-size:16px}
+.extender .aboutind-icon{display:inline-block; border:0; margin:0; padding:0; width:32%}
+.extender .aboutind-icon a{background:#ccc; display:inline-block; font-weight:400; color:#fff; padding:0 12px; line-height:32px; border-radius:3px; font-size:12px; width:100%}
+.extender .aboutind-icon i{margin:0 0 0 3px}
+.extender .aboutind-icon i:hover{color:#f80}
+.aboutind-icon.fbl a{background:#3b5998}
+.aboutind-icon.twitt a{background:#19bfe5}
+.aboutind-icon.crcl a{background:#d64136}
+.aboutind-icon.fbl a:hover, .aboutind-icon.twitt a:hover, .aboutind-icon.crcl a:hover{background:#404040}
+.extender .aboutind-icon:hover a, .extender .aboutind-icon a:hover{color:#fff}
+.aboutind-info{margin:10px 0 0 0; font-size:13px; text-align:center}
+.aboutind-info p{margin:5px 0}
+.aboutind-info h4{margin-bottom:10px; font-size:16px; text-transform:uppercase; color:#444; font-weight:700}
+.aboutind-info h4 span{position:relative; display:inline-block; padding:0 10px; margin:0 auto}
+.aboutind-info h4:before, .aboutind-info h4:after{position:absolute; top:51%; overflow:hidden; width:50%; height:1px; content:'a0'; background-color:rgba(0,0,0,0.08)}
+.aboutind-info h4:before{margin-right:-50%; text-align:left}
+
+/****** صفحة اتصل بنا ******/
+div#twist_blogger_cntct_form{ padding:50px 0px;  border-radius:2px;  color:#1D1D1D;  font-size:15px;  font-weight:bold;  position:relative;  background-color:#404040;  font-family:FontAwesome; height:98px}
+div#twist_blogger_cntct_form .wrap-me{ margin:0 auto;  display:block;  padding:30px 20px;  background-color:#F3F3F3;  max-width:100%;  width:100% !important;  border-top:65px solid #F00;  box-sizing:border-box; margin-top:-50px}
+div#twist_blogger_cntct_form .wrap-me:before{ content:'f0e0';  position:absolute;  font-family:FontAwesome;  font-weight:normal;  margin-top:-88px;  margin-right:-23px;  right:50%;  display:inline-block;  font-size:28px;  width:53px;  height:53px;  border-radius:50px;  text-align:center;  color:#FFF;  box-sizing:border-box;  border:2px solid #FFF;  line-height:49px}
+input#ContactForm1_contact-form-name, #ContactForm1_contact-form-email, #ContactForm1_contact-form-email:hover, #ContactForm1_contact-form-email:active{ padding:5px;  margin-top:4px !important;  box-shadow:none!Important;  max-width:100%;  width:100%;  border:1px solid #D2D2D2;  line-height:1em;  min-height:31px;  background:#FEFEFE;  font-family:droid arabic naskh;  margin-bottom:15px;  border-radius:0px; text-align:right}
+.contact-form-email-message, .contact-form-email-message:active, .contact-form-email-message:hover{ padding:5px;  margin-top:4px !important;  box-shadow:none!Important;  max-width:100%;  width:100%;  border:1px solid #D2D2D2;  line-height:1em;  min-height:80px;  background:#FEFEFE;  font-family:droid arabic naskh;  margin-bottom:10px;  border-radius:0px; text-align:right}
+
+/***** Focus *****/
+#ContactForm1_contact-form-name:focus,#ContactForm1_contact-form-email:focus,#ContactForm1_contact-form-email-message:focus{
+ outline:none; 
+ background:#FFF !important; 
+ color:#444; 
+ border-color:rgb(236,235,235) !important; 
+ box-shadow:0 0 5px rgba(241,241,241,0.7) !important; 
+ transition:all 0.3s ease-in-out !important;}
+
+ /**** Submit button style ****/
+.contact-form-button-submit:hover{ color:#FFF;  background:#0083FF !important; font-family:'droid arabic naskh'}
+.contact-form-button-submit{ background:#19B3EA;  display:table;  font-size:17px;  margin:0 !important;  border-radius:0 !important;  max-width:100%;  width:80%;  min-width:80%;  height:32px;  line-height:0.5em;  letter-spacing:0.5px; font-family:'droid arabic naskh';  font-weight:normal;  cursor:pointer;  outline:none!important;  color:#FFF;  border:1px solid #fff !important;  text-align:center;  padding:0px 15px 0px 0px;  text-transform:capitalize;  transition:all 300ms ease-in-out;  -webkit-transition:all 300ms ease-in-out;  -moz-transition:all 300ms ease-in-out}
+
+/**** Submit button on Focus ****/
+.contact-form-button-submit:focus,.contact-form-button-submit.focus{
+ border-color:#FFF; 
+ box-shadow:none !important;}
+ 
+ /**** Error message ****/
+.contact-form-error-message-with-border .contact-form-success-message{ background:#f9edbe;  border:1px solid #f0c36d;  bottom:0;  box-shadow:0 2px 4px rgba(0,0,0,.2);  color:#666;  font-size:12px;  font-weight:bold;  padding-bottom:10px;  line-height:19px;  margin-right:0;  opacity:1;  position:static;  text-align:center}
+
+/**** Submit Button On Success Message ****/
+.contact-form-button-submit.disabled, .contact-form-button-submit.disabled:hover, .contact-form-button-submit.disabled:active{ opacity:0.9}
+/****** Success Message *****/
+.contact-form-error-message-with-border{ background:#000;  border:1px solid #5A5A5A;  bottom:0;  box-shadow:none;  color:#FDFDFD;  font-size:15px;  font-weight:normal;  line-height:35px;  margin-right:0;  opacity:1;  position:static;  text-align:center;  height:35px;  margin-top:45px}
+.contact-form-cross{ height:14px;  margin:5px;  vertical-align:-8.5%;  float:left;  width:14px;  border-radius:50px;  border:0 !important;  cursor:pointer}
+.contact-form-success-message-with-border{ font-weight:normal;  background-color:#000;  border:1px solid #FFF;  color:#FFF;  line-height:35px;  margin-right:0;  font-size:13px;  opacity:1;  position:static;  text-align:center;  height:35px;  margin-top:45px}
+
+/* Extra Stuff */
+div#twist_blogger_cntct_form span.name-bg{ background-color:#E8F2FF}
+div#twist_blogger_cntct_form span.email-bg{ background-color:#FFE8E8}
+div#twist_blogger_cntct_form span.name-bg, div#twist_blogger_cntct_form span.email-bg{ display:inline-block;  max-width:100%;  line-height:21px;  width:100%;  color:#696969;  padding:3px 5px;  margin:0px 0px 4px;  box-sizing:border-box;  height:30px;  border:1px solid #E4E0E0;  padding-right:39px; text-align:right; font-family:'droid arabic naskh'}
+div#twist_blogger_cntct_form span.name-bg:before{ content:'f007';  background-color:#60A2FF}
+div#twist_blogger_cntct_form span.email-bg:before{ content:'f1fa ';  background-color:#FF530B}
+div#twist_blogger_cntct_form span.name-bg:before, div#twist_blogger_cntct_form span.email-bg:before, div#twist_blogger_cntct_form span.message-bg:before{ font-family:FontAwesome;  text-align:center;  margin:-4px 0 0px 0px;  font-weight:normal;  padding:0;  line-height:27px;  width:28px;  height:28px;  display:table;  position:absolute;  margin-right:-40px !important;  border:1px solid rgba(0,0,0,0.1);  border-left:0 !important;  color:#FFF}
+div#twist_blogger_cntct_form span.message-bg{ background-color:#EBFFE8;  display:inline-block;  max-width:100%;  line-height:21px;  width:100%;  color:#696969;  padding:3px 5px;  box-sizing:border-box;  height:30px;  border:1px solid #E4E0E0;  padding-right:39px;  margin:0px 0px 4px; text-align:right; font-family:'droid arabic naskh'}
+div#twist_blogger_cntct_form span.message-bg:before{ content:'f0e0';  background-color:#20CC00}
+div#twist_blogger_cntct_form span.send-bg{ height:32px;  display:inline-block;  float:left;  max-width:45%;  width:100%;  margin-top:15px;  transition:all 0.4s ease-in-out !important}
+div#twist_blogger_cntct_form span.send-bg:before{ content:'f1d8'}
+div#twist_blogger_cntct_form span.send-bg:before, div#twist_blogger_cntct_form span.clear-bg:before{ font-family:FontAwesome;  text-align:center;  font-weight:normal;  margin:0;  background-color:#000;  padding:0;  line-height:27px;  width:30px;  height:30px;  display:inline-block;  position:absolute;  border:1px solid #fff;  border-left:0 !important;  color:#FFF}
+div#twist_blogger_cntct_form span.clear-bg{ display:inline-block;  float:right;  margin-top:15px;  max-width:36%;  width:80%}
+div#twist_blogger_cntct_form span.clear-bg:before{ content:'f021'}
+input.contact-form-button.contact-form-button-submit.clear-button:hover{ background-color:#E83434 !important}
+div#twist_blogger_cntct_form .clear-button{ color:#FFF;  border:1px solid #FFF !important;  background-color:#FF2C2C;  float:left;  display:table;  height:32px}
+
+/****** شكل المواضيع ******/
+.index ul.post-meta.clearfix span{ color:wheat;  text-decoration:none}
+.index ul.post-meta.clearfix a{ color:wheat;  text-decoration:none}
+a.anchor-hover:hover{ color:aqua;  text-decoration:none}
+.read-more .fa:hover{ color:aqua}
+
+/******  أيقونات نشر المواضيع 1 ******/
+.post-meta-home{ display:block;  vertical-align:middle;  position:absolute;  bottom:0;  left:0;  padding:0 15.7px;  font-size:16px;  color:#989898;  line-height:38px;  border-right:0;  border-bottom:0}
+.post-meta-home .post-share a i{ font-size:14px;  display:block;  color:#fff;  transition:0.2s;  width:28px;  margin-left:1px;  height:28px;  line-height:28px;  text-align:center;  border-radius:50%}
+.post-share1{ margin-top:23px;  text-align:center;  margin-bottom:1px}
+.post-share a{ display:inline-block;  text-align:center;  font-size:17px;  border-radius:2px;  color:#6b2b2b;  text-decoration:none}
+.post-share a:hover{text-decoration:none}
+.share-facebook{background:#3b5998}
+.share-twitter{background:#00aced}
+.share-gplus{background:#dd4b39}
+.share-linkedin{background:#007bb5}
+.share-pinterest{background:#cb2027}
+.share-post{ position:absolute;  top:5px;  right:5px;  z-index:99999999}
+.share-post i{ background:#D03F42;  color:#fff;  width:30px;  text-align:center;  height:30px;  border-radius:3px;  line-height:30px;  cursor:pointer}
+
+/******أيقونات نشر المواضيع 2 *******/
+.smGlobalBtn{ display:inline-block;  position:relative;  cursor:pointer;  width:40px;  height:40px;  border:2px solid #ddd;  box-shadow:0 3px 3px #999;  padding:0px;  text-decoration:none;  text-align:center;  color:#fff;  font-size:18px;  font-weight:normal;  line-height:2em;  border-radius:27px;  -moz-border-radius:27px;  -webkit-border-radius:27px;  top:-3px}
+.facebookBtn{ background:#4060A5}
+.facebookBtn:before{ font-family:"FontAwesome";  content:"f09a"}
+.facebookBtn:hover{ color:#4060A5;  background:#fff;  border-color:#4060A5;  text-decoration:none}
+.twitterBtn{ background:#00ABE3}
+.twitterBtn:before{ font-family:"FontAwesome";  content:"f099"}
+.twitterBtn:hover{ color:#00ABE3;  background:#fff;  border-color:#00ABE3;  text-decoration:none}
+.googleplusBtn{ background:#e64522}
+.googleplusBtn:before{ font-family:"FontAwesome";  content:"f0d5"}
+.googleplusBtn:hover{ color:#e64522;  background:#fff;  border-color:#e64522;  text-decoration:none}
+.linkedinBtn{ background:#0094BC}
+.linkedinBtn:before{ font-family:"FontAwesome";  content:"f0e1"}
+.linkedinBtn:hover{ color:#0094BC;  background:#fff;  border-color:#0094BC;  text-decoration:none}
+.pinterestBtn{ background:#cb2027}
+.pinterestBtn:before{ font-family:"FontAwesome";  content:"f0d2"}
+.pinterestBtn:hover{ color:#cb2027;  background:#fff;  border-color:#cb2027;  text-decoration:none}
+.tumblrBtn{ background:#3a5876}
+.tumblrBtn:before{ font-family:"FontAwesome";  content:"f173"}
+.tumblrBtn:hover{ color:#3a5876;  background:#fff;  border-color:#3a5876;  text-decoration:none}
+.rssBtn{ background:#e88845}
+.rssBtn:before{ font-family:"FontAwesome";  content:"f09e"}
+.rssBtn:hover{ color:#e88845;  background:#fff;  border-color:#e88845;  text-decoration:none}
+blog-pager-newer-link, .blog-pager-older-link:hover{ text-decoration:none}
+
+/******شكل تعليقات بلوجر *******/
+#comments{margin-top:15px; padding:15px; background-color:#fff; margin-bottom:30px; box-shadow:0 4px 16px rgba(0,0,0,0.2)}
+#comments h4{text-align:right; font-weight:500; font-size:16px; padding-bottom:10px; border-bottom:2px solid #ccc; line-height:24px; position:relative; color:#09f; margin-bottom:20px}
+#comments h4::before{content:""; position:absolute; height:2px; width:32px; background-color:#09f; bottom:-2px; left:initial!important; right:0}
+#comments h4:after{content:"f0e5"; display:block; background-color:#09f; font-family:FontAwesome; height:28px; width:32px; line-height:28px; font-size:14px; text-align:center; border-radius:2px; float:right; margin-right:0; margin-left:10px; color:#FFF}
+.paging-control-container{text-align:center; width:100%; float:right; margin-bottom:20px; margin-top:10px}
+.paging-control{background-color:#3B5998; color:#fff; padding:10px; height:40px; line-height:13px; display:inline-block}
+.unneeded-paging-control{color:#FFF; background-color:#343434; padding:10px; height:40px; line-height:13px; display:inline-block}
+.comment_inner.comment_admin{margin-top:10px}
+.comment_header{float:right}
+.comment_avatar{width:65px; height:65px; float:right; margin-left:15px}
+.comment_avatar img{    width:100%;     height:100%;     border-radius:50%;     border:3px solid #09f;     box-shadow:0 3px 5px 0 rgba(0,0,0,0.19)}
+.comment_body{overflow:hidden;     border:1px solid #ccc;     margin-bottom:20px;     background-color:#eee;     margin-right:80px;     box-shadow:0 3px 5px 0 rgba(0,0,0,0.19)}
+.comment_name{border-bottom:1px solid #ccc;     padding:5px 10px 0px 5px;     background-color:#fff;     overflow:hidden; line-height:32px}
+.comment-content{font-size:15px; color:#555; padding:20px; text-align:justify; background-color:#ddd}
+.deleted-comment{font-size:15px; color:#555; display:block; padding:10px 20px 20px 20px}
+.comment_author_flag{display:inline-block; width:initial; margin:2px 12px 0 0; color:#FFF; font-size:13px; background:#DD4B39; padding:0 5px 0px 5px; border-radius:2px}
+.comment_service{float:left}
+.comment-delete{    padding:2px 10px;     display:inline-block;     border-radius:2px;     float:left;     margin-right:5px;     margin-bottom:10px;     color:#FFF;     background:#09f -webkit-linear-gradient(45deg,rgba(255,255,255,0.05) 25%,transparent 25%,transparent 50%,#2dabff 50%,rgba(255,255,255,0) 75%,rgba(230,70,70,0) 75%,transparent);     line-height:26px;     margin-top:2px;     font-size:13px; box-shadow:0 3px 5px 0 rgba(0,0,0,0.19)}
+#comments .comment_reply{font-size:18px; display:inline-block;     margin-top:10px;     padding:0;     color:#fff;     text-align:center; width:100%;     border-radius:30px 30px 30px 30px;     box-shadow:0 3px 5px 0 rgba(0,0,0,0.19);     background:#09f -webkit-linear-gradient(45deg,rgba(255,255,255,0.05) 25%,transparent 25%,transparent 50%,#2dabff 50%,rgba(255,255,255,0) 75%,rgba(230,70,70,0) 75%,transparent)}
+.comment_avatar_wrap{width:65px; background:#fcfcfc; text-align:center}
+#comments .comment-form p{background:#ddd; padding:0 15px 10px 15px; margin:5px 0 15px; color:rgba(0,0,0,.8); font-size:15px; line-height:normal; border-radius:3px; position:relative; max-width:100%; border:1px solid #ccc}
+#emo-box, #hide-emo{display:none}
+.small-button a, .small-button1 a{background:#09f -webkit-linear-gradient(45deg,rgba(255,255,255,0.05) 25%,transparent 25%,transparent 50%,#2dabff 50%,rgba(255,255,255,0) 75%,rgba(230,70,70,0) 75%,transparent); color:#fff; font-size:13px; cursor:pointer; margin:15px 5px 5px 0; text-decoration:none; text-transform:none; text-shadow:none; border-radius:3px; display:inline-block; padding:5px 10px; box-shadow:0 1px 2px rgba(0,0,0,0.1)}
+.comment_emo_list .item{float:right; display:block; text-align:center; margin:5px 5px 0 0; width:50px; border-radius:2px; height:65px-webkit-transition:-webkit-transform 400ms cubic-bezier(0.175,0.885,0.32,1),box-shadow 400ms cubic-bezier(0.175,0.885,0.32,1); -moz-transition:-moz-transform 400ms cubic-bezier(0.175,0.885,0.32,1),box-shadow 400ms cubic-bezier(0.175,0.885,0.32,1); transition:transform 400ms cubic-bezier(0.175,0.885,0.32,1),box-shadow 400ms cubic-bezier(0.175,0.885,0.32,1); background:#09f -webkit-linear-gradient(45deg,rgba(255,255,255,0.05) 25%,transparent 25%,transparent 50%,#2dabff 50%,rgba(255,255,255,0) 75%,rgba(230,70,70,0) 75%,transparent)}
+.comment_emo_list span{display:block; margin:5px 0 5px 0; letter-spacing:1px; color:#fff}
+.comment_emo{width:25px; height:25px; margin-bottom:-10px}
+.comment_wrap{    background:#fafafa;     border-width:1px 1px 1px 1px;     border-style:solid;     border-color:#09f #09f #09f #09f;     padding:10px;     margin-bottom:10px}
+.comment_wrap:before{    text-align:center;     position:relative;     content:'الردود';     left:8px;     top:-6px;     font-size:18px;     padding:5px 20px;     padding-left:8px;     background:url(data:image/png; base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAG0lEQVR42mNgwAfKy8v/48I4FeA0AacVDFQBAP9wJkE/KhUMAAAAAElFTkSuQmCC) no-repeat scroll 0 0 transparent}
+#comment_block{ overflow:auto;  background:#f5f7f7;  overflow-x:hidden}
+.comment_inner.comment_admin{ margin-top:10px}
+.comment_date{ font-size:14px;  color:#555}
+.comment_inner.comment_admin .comment_avatar img{ border-radius:0;  border:3px solid #375e97}
+.comment_inner.comment_admin .comment_reply{ background:#375e97!important}
+.comment_inner.comment_admin .comment_body{ border:1px solid #fff}
+.comment_inner.comment_admin .comment_name{ border-bottom:0 solid #ccc;  background:#09f -webkit-linear-gradient(45deg,rgba(255,255,255,0.05) 25%,transparent 25%,transparent 50%,#2dabff 50%,rgba(255,255,255,0) 75%,rgba(230,70,70,0) 75%,transparent)}
+.comment_inner.comment_admin .comment_name a{ color:#fff}
+.comment_inner.comment_admin .comment_author_flag{ background:#385e95}
+.comment_inner.comment_admin .comment-delete{ background:#375e97}
+.comment_inner.comment_admin .comment-content{ color:#fff;  background:-webkit-linear-gradient(left,rgba(45,69,98,0.65) 0%,#2d4562 100%),-webkit-linear-gradient(left,#4d90fe 0%,#666 100%)}
+
+ /******أنظمة التعليقات الثلاثة *******/
+.cmm-tabs-header{  overflow:hidden;   background:#fff;   padding:10px;   box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 5px 0 rgba(0,0,0,.23);   margin-bottom:10px}
+.cmm-tabs-header ul li a{  float:right;   width:33.33333%;   text-align:center;   display:inline-block;   background:#EF5350 url(//3.bp.blogspot.com/-OPew1v1hjO4/VqpIpESmS7I/AAAAAAAAAvM/v3oxGsnBVd0/s1600-r/comments.png) no-repeat;  padding:20px 0;  background-position:center -32px;  background-color:orange;  border:5px solid #FFF}
+.facebook-tab{ background:#fff;  padding:10px;  box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 5px 0 rgba(0,0,0,.23);  margin-bottom:10px}
+.disqus-tab{ background:#fff;  padding:10px;  box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 5px 0 rgba(0,0,0,.23);  margin-bottom:10px}
+ul.wrap-tab li:nth-child(1) a{ background-position:center -32px;  background-color:orange}
+ul.wrap-tab li:nth-child(2) a{ background-position:center -66px;  background-color:#2e9fff}
+ul.wrap-tab li:nth-child(3) a{ background-position:center 3px;  background-color:#3b5998}
+ 

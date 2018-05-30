@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/*! 
+ * Slider
+ * MinhajNobowa
+ * MinhajNobowa : https://minhajnobowa1.blogspot.com/
+ * Copyright (c) 2018 Djillali Chellal
+ */
+/*===============================================
++/+ Slider
+===============================================*/
+body[data-main="false"] #slider{ display:none}
+#slider .widget-content{font-size:0}
+.slider-item{ float:left;  width:25%;  height:350px;  position:relative; overflow:hidden}
+.slider-image{ display:block;  width:100%;  height:350px}
+.slider-image:hover{ transform:scale(1.1)}
+.slider-image:before{ content:'';  position:absolute;  left:0;  right:0;  top:0;  bottom:0; background:rgba(0,0,0,0.6);  background:linear-gradient(0deg,#000 0,rgba(0,0,0,0) 50%);  background:-webkit-gradient(linear,0deg,color-stop(0,000000),color-stop(50%,rgba(0,0,0,0)));  background:-webkit-linear-gradient(90deg,#000 0,rgba(0,0,0,0) 50%);  background:-o-linear-gradient(90deg,#000 0,rgba(0,0,0,0) 50%);  background:-ms-linear-gradient(90deg,#000 0,rgba(0,0,0,0) 50%)}
+#slider-item1 .slider-image:after{ content:'';  position:absolute;  left:0;  right:0;  top:0;  bottom:0; opacity:0; background:rgba(0,0,0,0.6);  background:linear-gradient(0deg,#17C65D 0,rgba(0,0,0,0) 50%);  background:-webkit-gradient(linear,0deg,color-stop(0,000000),color-stop(50%,rgba(0,0,0,0)));  background:-webkit-linear-gradient(90deg,#17C65D 0,rgba(0,0,0,0) 50%);  background:-o-linear-gradient(90deg,#17C65D 0,rgba(0,0,0,0) 50%);  background:-ms-linear-gradient(90deg,#17C65D 0,rgba(0,0,0,0) 50%)}
+#slider-item2 .slider-image:after{ content:'';  position:absolute;  left:0;  right:0;  top:0;  bottom:0; opacity:0; background:rgba(0,0,0,0.6);  background:linear-gradient(0deg,#FA29AF 0,rgba(0,0,0,0) 50%);  background:-webkit-gradient(linear,0deg,color-stop(0,000000),color-stop(50%,rgba(0,0,0,0)));  background:-webkit-linear-gradient(90deg,#FA29AF 0,rgba(0,0,0,0) 50%);  background:-o-linear-gradient(90deg,#FA29AF 0,rgba(0,0,0,0) 50%);  background:-ms-linear-gradient(90deg,#FA29AF 0,rgba(0,0,0,0) 50%)}
+#slider-item3 .slider-image:after{ content:'';  position:absolute;  left:0;  right:0;  top:0;  bottom:0; opacity:0; background:rgba(0,0,0,0.6);  background:linear-gradient(0deg,#29ABFA 0,rgba(0,0,0,0) 50%);  background:-webkit-gradient(linear,0deg,color-stop(0,000000),color-stop(50%,rgba(0,0,0,0)));  background:-webkit-linear-gradient(90deg,#29ABFA 0,rgba(0,0,0,0) 50%);  background:-o-linear-gradient(90deg,#29ABFA 0,rgba(0,0,0,0) 50%);  background:-ms-linear-gradient(90deg,#29ABFA 0,rgba(0,0,0,0) 50%)}
+#slider-item4 .slider-image:after{ content:'';  position:absolute;  left:0;  right:0;  top:0;  bottom:0; opacity:0; background:rgba(0,0,0,0.6);  background:linear-gradient(0deg,#FF3535 0,rgba(0,0,0,0) 50%);  background:-webkit-gradient(linear,0deg,color-stop(0,000000),color-stop(50%,rgba(0,0,0,0)));  background:-webkit-linear-gradient(90deg,#FF3535 0,rgba(0,0,0,0) 50%);  background:-o-linear-gradient(90deg,#FF3535 0,rgba(0,0,0,0) 50%);  background:-ms-linear-gradient(90deg,#FF3535 0,rgba(0,0,0,0) 50%)}
+a.slider-image:hover:after{ opacity:1 !important}
+a.slider-image:hover:before{ opacity:0}
+.slider-post-info{ position:absolute;  left:0;  right:0;  bottom:15px;  padding:0 15px;  color:#fff;  font-size:.75rem}
+.slider-post-info .heading{ font-size:1rem;  margin-bottom:15px;  line-height:1.6;  font-family:droid arabic naskh;  color:aliceblue}
+.publish-date{ margin-right:0px}
+.post-category{ position:absolute;  top:15px;  left:15px;  color:#fff !important;  padding:5px 10px;  font-family:'Roboto';  text-transform:uppercase;  font-size:0.75rem;  font-weight:700;  z-index:3}
+.post-category:hover{ background:#444 !important}
+.slider-item:nth-child(1) .post-category{background:#17C65D; font-family:droid arabic naskh}
+.slider-item:nth-child(2) .post-category{background:#FA29AF; font-family:droid arabic naskh}
+.slider-item:nth-child(3) .post-category{background:#29ABFA; font-family:droid arabic naskh}
+.slider-item:nth-child(4) .post-category{background:#FF3535; font-family:droid arabic naskh}
+ 
